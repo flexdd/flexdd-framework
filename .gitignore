@@ -1,0 +1,6 @@
+node_modules/
+bower_components/
+main.css
+.sass-cache/
+bower_components/
+._*
