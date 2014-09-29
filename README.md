@@ -10,6 +10,14 @@ It may not be perfect for you but it works well for what I use it for. I've kept
 
 Credit is given where I have used someone elses work including work from Harry Roberts, The Guardian and Forepoint.
 
+## Features
+
+* Component based framework.
+* Scalable OOCSS.
+* Browser IE9+.
+* Support for React.JS and jQuery.
+* UI Components.
+
 ## Getting Started
 
 It's super simple to get started.
@@ -20,6 +28,7 @@ This will include the framework as a bower_component which you can then include 
 
 There are four ways the framework can be used.
 
-* Reference the individual framework components in your projects bower.json file. `bower install 'flexdd-base-* --save-dev` then include the bower_components within your Sass file.
-* Reference the framework in your projects bower.json file. `bower install 'flexdd-framework'` then include the bower_component `_flexdd.scss` in your Sass file.
-* If you are using a similar architecture to Instagram's website then each component also has a .css which you can include depending on what page you are on. [Talk on instagrams architecture](https://www.youtube.com/watch?v=eCf5CquV_Bw)
+* Reference the individual framework components in your projects bower.json file. `bower install 'flexdd-base-* --save-dev` then include the bower_components within your Sass file. This method allows you to specify your own dependencies. 
+* Reference the framework in your projects bower.json file. `bower install 'flexdd-framework'` then include the bower_component `_flexdd.scss` in your Sass file. This method assumes what components you will require.
+* If you are using a similar architecture to Instagram's website then each component also has a .css which you include depending on what page you are on. [Talk on Instagrams architecture](https://www.youtube.com/watch?v=eCf5CquV_Bw)
+* Use the Yeoman generator to build up the projects structure with what you need.
