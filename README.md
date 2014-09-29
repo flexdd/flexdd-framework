@@ -14,6 +14,12 @@ Credit is given where I have used someone elses work including work from Harry R
 
 It's super simple to get started.
 
-Just include `flexdd-framework` as a dependency in your bower.json file, run bower.json and let the magic happen.
+Just include `flexdd-framework` as a dependency in your bower.json file, run `bower install` and let the magic happen.
 
-This will include the framework as a bower_component which you then include in your own project. The reason for this is that the framework should not force you into working a certain method.
+This will include the framework as a bower_component which you can then include in your own project. The reason for this is that the framework should not force you into working a certain method.
+
+There are four ways the framework can be used.
+
+* Reference the individual framework components in your projects bower.json file. `bower install 'flexdd-base-* --save-dev` then include the bower_components within your Sass file.
+* Reference the framework in your projects bower.json file. `bower install 'flexdd-framework'` then include the bower_component `_flexdd.scss` in your Sass file.
+* If you are using a similar architecture to Instagram's website then each component also has a .css which you can include depending on what page you are on. [Talk on instagrams architecture](https://www.youtube.com/watch?v=eCf5CquV_Bw)
