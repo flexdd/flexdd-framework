@@ -8,22 +8,7 @@
  *
  */
 
-// Spacing
-$flexdd-base-spacing-unit: 24 !default;
-$flexdd-half-spacing-unit: $flexdd-base-spacing-unit / 2 !default;
-$flexdd-double-spacing-unit: $flexdd-base-spacing-unit * 2 !default;
-
-// Type Setup
-$base-font-size: 16px !default;
-$base-line-height: 24px !default;
-$base-face: sans-serif !default;
-$flexdd-h1-size: 36px !default;
-$flexdd-h2-size: 28px !default;
-$flexdd-h3-size: 20px !default;
-$flexdd-h4-size: 18px !default;
-$flexdd-h5-size: 16px !default;
-$flexdd-h6-size: 16px !default;
-
+@import "../flexdd-base-settings/base.settings";
 @import "../flexdd-base-reset/base.reset";
 @import "../flexdd-base-functions/base.functions";
 @import "../flexdd-base-mixins/base.mixins";
