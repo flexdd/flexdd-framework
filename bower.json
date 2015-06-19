@@ -1,6 +1,6 @@
 {
   "name": "Flexdd Core Framework",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "authors": [
     "Adam Bulmer <mintuz1990@gmail.com>"
   ],
@@ -25,6 +25,7 @@
     "flexdd-base-reset": "~1.0",
     "flexdd-base-functions": "~1.0",
     "flexdd-base-mixins": "~1.0",
-    "flexdd-base-objects": "~1.0"
+    "flexdd-base-objects": "~1.0",
+    "flexdd-base-settings": "~1.0"
   }
 }
